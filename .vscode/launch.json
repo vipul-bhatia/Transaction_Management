@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "Flutter (lib/main.dart)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart"
+        }
+    ]
+}
